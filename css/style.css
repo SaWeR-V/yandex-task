@@ -83,7 +83,6 @@
 .container-prices{
     display: inline-block;
     vertical-align: middle;
-
 }
 
 .candy {
@@ -128,7 +127,7 @@
     position: absolute;
     height: 650px;
     top: 140px;
-    left: 480px;
+    left: 515px;
     overflow: hidden;
 }
 
@@ -140,7 +139,7 @@
     position: relative;
     width: 207px;
     top: -345px;
-    left: 194px;
+    left: 195px;
 }
 
 .samokat-bkg {
@@ -180,15 +179,52 @@
 }
 
 .abilities-container {
-
-}
-
-.group {
+    display: flex;
     position: relative;
     top: 400px;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.ability-block {
+    position: relative;
+    width: 40%;
+    margin-right: 10%;
+    margin-bottom: 5%;
 }
 
 .zero {
     position: relative;
     left: -40px;
+}
+
+.ability-text {
+    font-family: YSTextMedium;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 20px;
+}
+
+.scooter {
+    position: relative;
+    left: -55px;
+}
+
+.x-three {
+    position: relative;
+    top: -45px;
+    left: -70px;
+}
+
+.watches {
+    position: relative;
+    left: -35px;
+}
+
+.battery {
+    position: relative;
+    left: -42px;
+    top: -8px;
 }
