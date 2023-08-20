@@ -178,3 +178,17 @@
     color: rgba(33, 32, 31, 1);
     width: 670px;
 }
+
+.abilities-container {
+
+}
+
+.group {
+    position: relative;
+    top: 400px;
+}
+
+.zero {
+    position: relative;
+    left: -40px;
+}
