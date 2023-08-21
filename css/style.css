@@ -170,8 +170,7 @@
 }
 
 .opportunities {
-    position: relative;
-    top: 345px;
+    margin-top: 345px;
     font-family: YSTextBlack;
     font-size: 56px;
     color: rgba(33, 32, 31, 1);
@@ -180,8 +179,7 @@
 
 .abilities-container {
     display: flex;
-    position: relative;
-    top: 400px;
+    margin-top: 50px;
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -227,4 +225,57 @@
     position: relative;
     left: -42px;
     top: -8px;
+}
+
+.exclusive {
+    margin-top: 50px;
+    font-family: YSTextBlack;
+    font-size: 56px;
+    color: rgba(33, 32, 31, 1);
+    width: 670px;
+}
+
+.exclusive-text {
+    margin-top: 50px;
+    font-family: YSTextMedium;
+    font-size: 24px;
+    width: 40%;
+    margin-bottom: 75px;
+}
+
+.gallery {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-gallery {
+    border-radius: 64px;
+}
+
+.gallery-topper {
+    position: relative;
+    top: -190px;
+}
+
+.geo {
+    position: relative;
+    top: -1140px;
+    left: -270px;
+}
+
+.baloons {
+    position: relative;
+    top: -1396px;
+    left: 195px;
+}
+
+.cup {
+    position: relative;
+    top: -1095px;
+    left: 395px;
 }
