@@ -259,6 +259,10 @@
     flex-wrap: wrap;
 }
 
+.gallery-slider {
+    display: none;
+}
+
 .image-gallery {
     border-radius: 64px;
 }
@@ -430,7 +434,14 @@
     color: rgba(197, 197, 197, 1);
 }
 
+.rounded {
+    border-radius: 48px;
+}
+
 @media (max-width: 375px) {
+    body {
+        max-width: 375px;
+    }
     .offer-container {
         min-width: 375px;
         height: 630px;
@@ -487,7 +498,8 @@
         position: relative;
         left: 410px;
         font-size: 32px;
-        margin-top: 405px;
+        line-height: 32px;
+        margin-top: 415px;
     }
     .abilities-container {
         width: 285px;
@@ -548,5 +560,65 @@
         line-height: 19.2px;
         margin-left: 20px;
         margin-top: 0;
+    }
+    .exclusive {
+        font-size: 32px;
+        width: 311px;
+        line-height: 32px;
+    }
+    .exclusive-text {
+        font-size: 16px;
+        line-height: 19px;
+        width: 300px;
+    }
+    .markers {
+        display: none;
+    }
+    .gallery {
+        display: none;
+    }
+    .gallery-slider {
+        display: inline-flex;
+        width: 343px;
+        height: 343px;
+        overflow: hidden;
+        margin-right: -60px;
+        margin-bottom: 20px;
+        position: relative;
+        left: -21px;
+    }
+    .slider-resources {
+        background-size: contain;
+    }
+    .back, .next {
+        position: relative;
+        border: none;
+        width: 50px;
+        height: 50px;
+        left: 100px;
+        background: none;
+        background-image: url("../media/png/Ellipse1837.png");
+        background-repeat: no-repeat;
+        margin: 5px;
+    }
+    .back::before {
+        background-image: url(../media/png/Vector252.png);
+        background-repeat: no-repeat;
+        width: 27px;
+        height: 25px;
+        content: "";
+        display: block;
+        position: relative;
+        left: 5px;
+    }
+    .next::after {
+        background-image: url(../media/png/Vector253.png);
+        background-repeat: no-repeat;
+        width: 27px;
+        height: 25px;
+        content: "";
+        display: block;
+        position: relative;
+        left: 5px;
     }
 }
