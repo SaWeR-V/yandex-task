@@ -154,7 +154,8 @@
 .subscribe {
     width: 318px;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 24px;
+    line-height: 22px;
     font-family: YSTextMedium;
     position: relative;
     top: 270px;
@@ -390,7 +391,8 @@
 .season-ticket {
     width: 318px;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 24px;
+    line-height: 22px;
     font-family: YSTextMedium;
     position: relative;
     padding: 24px 48px 24px 48px;
