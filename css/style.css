@@ -170,11 +170,12 @@
 }
 
 .opportunities {
-    margin-top: 345px;
+    margin-top: 355px;
     font-family: YSTextBlack;
     font-size: 56px;
     color: rgba(33, 32, 31, 1);
     width: 670px;
+    line-height: 48px;
 }
 
 .abilities-container {
@@ -233,6 +234,7 @@
     font-size: 56px;
     color: rgba(33, 32, 31, 1);
     width: 670px;
+    line-height: 48px;
 }
 
 .exclusive-text {
@@ -259,22 +261,145 @@
 .gallery-topper {
     position: relative;
     top: -235px;
+    margin-left: 10px;
+}
+
+.markers {
+    display: block;
+    height: 55vh;
 }
 
 .geo {
     position: relative;
     top: -1140px;
-    left: -270px;
+    left: -225px;
 }
 
 .baloons {
     position: relative;
-    top: -1445px;
-    left: 195px;
+    top: -1555px;
+    left: 240px;
 }
 
 .cup {
     position: relative;
-    top: -1135px;
-    left: 380px;
+    top: -1145px;
+    left: 575px;
+}
+
+.offer-block {
+    display: flex;
+    overflow: hidden;
+    max-width: 1140px;
+    height: 670px;
+    justify-content: space-between;
+}
+
+.offer-text {
+    display: block;
+}
+
+.subscription {
+    margin-top: 65px;
+    font-family: YSTextBlack;
+    font-size: 56px;
+    color: rgba(33, 32, 31, 1);
+    width: 495px;
+    line-height: 48px;
+}
+
+.offer {
+    margin-top: 50px;
+    font-family: YSTextMedium;
+    font-size: 24px;
+    width: 85%;
+    margin-bottom: 75px;
+}
+
+.block-plus {
+    display: block;
+}
+
+.scooter-plus {
+    position: relative;
+    top: -140px;
+    left: -125px;
+}
+
+.plus {
+    position: relative;
+    left: 45px;
+    top: -745px;
+}
+
+.cloud-scooter {
+    position: relative;
+    top: -1172px;
+    left: -146px;
+    opacity: 0.29;
+    z-index: -1;
+}
+
+.benefit-text {
+    display: block;
+}
+
+.benefit {
+    margin-top: 50px;
+    font-family: YSTextMedium;
+    font-size: 24px;
+    width: 65%;
+    margin-bottom: 60px
+}
+
+.benefit-header {
+    margin-top: 65px;
+    font-family: YSTextBlack;
+    font-size: 56px;
+    line-height: 48px;
+    color: rgba(33, 32, 31, 1);
+    width: 495px;
+}
+
+.scooter-small-group {
+    display: block;
+    margin-top: 100px;
+}
+
+.scooter-small {
+    width: 283px;
+    height: 393px;
+    margin-left: 90px;
+}
+
+.community-mini {
+    width: 450.41px;
+    height: 450.41px;
+    position: relative;
+    top: -420px;
+}
+
+.scooter-small-cloud {
+    width: 413px;
+    height: 369px;
+    position: relative;
+    top: -835px;
+    left: 25px;
+}
+
+.season-ticket {
+    width: 318px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: YSTextMedium;
+    position: relative;
+    padding: 24px 48px 24px 48px;
+    border-radius: 36px;
+    border: none;
+    background-color: rgba(255, 222, 64, 1);
+    box-shadow: 0 4px 98px 0 rgba(255, 222, 64, 0.35);
+}
+.season-ticket:hover {
+    background-color: #000000;
+    color: #FFFFFF;
 }
