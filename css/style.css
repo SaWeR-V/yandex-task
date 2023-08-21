@@ -239,15 +239,14 @@
     margin-top: 50px;
     font-family: YSTextMedium;
     font-size: 24px;
-    width: 40%;
+    width: 42%;
     margin-bottom: 75px;
 }
 
 .gallery {
     display: flex;
-    width: 100vw;
     height: 100vh;
-    margin-left: 10px;
+    margin-left: 5px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -259,7 +258,7 @@
 
 .gallery-topper {
     position: relative;
-    top: -190px;
+    top: -235px;
 }
 
 .geo {
@@ -270,12 +269,12 @@
 
 .baloons {
     position: relative;
-    top: -1396px;
+    top: -1445px;
     left: 195px;
 }
 
 .cup {
     position: relative;
-    top: -1095px;
-    left: 395px;
+    top: -1135px;
+    left: 380px;
 }
