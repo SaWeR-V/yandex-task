@@ -408,6 +408,7 @@
 
 .footer-container {
     display: flex;
+    width: 840px;
     justify-content: center;
     margin: 50px 0 50px 0;
 }
