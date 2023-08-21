@@ -428,13 +428,13 @@
 
 @media (max-width: 375px) {
     .offer-container {
-        background-position: -250px;
+        min-width: 375px;
         height: 630px;
     }
 
     .Ya-Go {
         top: 32px;
-        left: -120px;
+        left: 410px;
         width: 112px;
     }
     .greetings {
@@ -442,14 +442,14 @@
         font-size: 36px;
         line-height: 32px;
         top: 65px;
-        left: -120px;
+        left: 410px;
     }
     .conditions {
         width: 311px;
         font-size: 18px;
         line-height: 23px;
         top: 100px;
-        left: -120px;
+        left: 410px;
     }
     .subscribe {
         display: none;
@@ -459,15 +459,24 @@
     .main-images-container {
         scale: 0.5;
         top: 165px;
-        left: -568px;
+        left: 105px;
+        display: block;
+    }
+    .community {
+        position: absolute;
+        width: 207px;
+        top: 305px;
+        left: 190px;
     }
     .candy {
         font-size: 18px;
-        width: 50px;
+        width: 56px;
+        height: 23px;
     }
     .old-price {
         font-size: 13px;
-        top: -1px;
+        top: -2px;
+        width: 75px;
     }
     .opportunities {
         width: 311px;
@@ -483,10 +492,20 @@
     }
     .ability-block {
         width: 100%;
+        margin-right: 0;
+        margin-bottom: 10%;
+        display: flex;
     }
     .vector {
         width: 52px;
         height: 47px;
     }
-    
+    .zero {
+        width: 48.91px;
+        height: 33.67px;
+    }
+    .ability-text {
+        font-size: 16px;
+        line-height: 19.2px;
+    }
 }
