@@ -408,13 +408,12 @@
 
 .footer-container {
     display: flex;
-    width: 840px;
     justify-content: center;
-    margin: 50px 0 50px 0;
+    margin-top: 50px;
 }
 
 .footer {
-    width: 840px;
+    max-width: 840px;
     font-family: YSTextRegular;
     font-size: 13px;
     line-height: 15.6px;
