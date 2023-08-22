@@ -309,7 +309,7 @@
 }
 
 .subscription {
-    margin-top: 85px;
+    margin-top: 75px;
     font-family: YSTextBlack, sans-serif;
     font-size: 56px;
     color: rgba(33, 32, 31, 1);
@@ -596,6 +596,10 @@
     }
     .slider-resources {
         background-size: contain;
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease-in-out;
+        transform: translateX(0%);
     }
     .back, .next {
         display: block;
@@ -628,10 +632,5 @@
         display: block;
         position: relative;
         left: 5px;
-    }
-    .gallery-slider .slider-resources {
-        width: 100%;
-        height: auto;
-        transition: transform 0.3s ease-in-out;
     }
 }
