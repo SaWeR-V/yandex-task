@@ -749,9 +749,3 @@
         width: 311px;
     }
 }
-
-@media (max-height: 900px) and (max-width: 640px) {
-    .subscribe {
-        display: none;
-    }
-}
