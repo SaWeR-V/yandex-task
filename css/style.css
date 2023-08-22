@@ -522,6 +522,9 @@
         vertical-align: middle;
         height: 23px;
         align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 55%;
     }
     .candy {
         font-size: 18px;
