@@ -8,7 +8,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
 </head>
 <body>
-   <div class="offer-container">
+   <main class="offer-container">
         <div class="preposition">
             <a href="https://go.yandex/ru_ru/"><img class="Ya-Go" src="./media/png/Yandex Go Ru black.png"></a>
             <h3 class="greetings">Вступайте в клуб Самокатов</h3>
@@ -24,7 +24,9 @@
                 <img class="community" src="./media/png/Group 2087325522.png">
                 <img class="samokat-bkg" src="./media/png/Ellipse 1972.png">
         </div>
-        <button class="subscribe">Стать частью клуба</button>
+        <div class="btn-container">
+            <button class="subscribe">Стать частью клуба</button>
+        </div>
         <h3 class="opportunities">Вот что даёт участие в клубе</h3>
         <div class="abilities-container">
             <div class="ability-block">
@@ -121,9 +123,7 @@
             </div>
             <button class="back" id="previous"></button>
             <button class="next" id="next"></button>
-                
-
-            </div>
+        </div>
             <div class="offer-block">
                 <div class="offer-text">
                 <h3 class="subscription">Купить абонемент и вступить в клуб смогут те, кто в Плюсе</h3>
@@ -135,22 +135,26 @@
                 <img src="./media/png/Ellipse 1972.png" alt="Cloud" class="cloud-scooter">
                 </div>
             </div>
-            <div class="offer-block">
+            <div class="advantages-block">
                 <div class="scooter-small-group">
                 <img src="./media/png/smkt3.png" alt="Scooter small" class="scooter-small">
                 <img src="./media/png/community1.png" alt="" class="community-mini">
                 <img src="./media/png/Ellipse 1973.png" alt="Cloud scooter mini" class="scooter-small-cloud">
                 </div>
-                <div class="benefit-text">
+                <img src="./media/png/scooter-mobile.png" alt="Scooter" class="scooter-mobile">
+                <div class="benefit-block">
                     <h3 class="benefit-header">80  % наших пользователей уже в клубе и экономят на поездках</h3>
                     <p class="benefit">Присоединяйтесь — опция начнёт действовать в начале сезона–2024. Об открытии сезона предупредим заранее, чтобы вы были готовы</p>
                     <button class="season-ticket">Хочу абонемент</button>
                 </div>
+                
             </div>
-            <footer class="footer-container">
-                <p class="footer">Доп. опция «Абонемент на самокаты» на 8 месяцев (240 дней) активируется автоматически с момента старта сезона 2024 г. самокатов Яндекс Go, далее предусмотрено автопродление доп.опции за 399 руб./мес. Сертификат на доп.опцию «Абонемент на самокаты» на 8 месяцев оформляется на условиях документа <a href="https://yandex.ru/legal/scooters_seasonpass/" class="link">yandex.ru/legal/scooters_seasonpass</a>. Доп.опция доступна пользователям с активной подпиской (условия подписки: <a href="https://yandex.ru/legal/yandex_plus_conditions/" class="link">yandex.ru/legal/yandex_plus_conditions</a>), есть ограничения, подробнее: <a href="https://yandex.ru/legal/yandex_plus_opzii_list/" class="link">yandex.ru/legal/yandex_plus_opzii_list</a>. В случае отсутствия у пользователя активной подписки на дату активации доп.опции, пользователю предоставляется 7 дней подписки Яндекс Плюс бесплатно, далее автопродление — 299 руб./мес. Электросамокаты Яндекс Go — сервис аренды электросамокатов на условиях: <a href="https://yandex.ru/legal/samokaty/" class="link">clck.ru/gwDGn</a>. 0+</p>
-            </footer>
-        </div> 
-</body>
-<script src='./script/main.js'></script>
+
+        <footer class="footer-container">
+            <p class="footer">Доп. опция «Абонемент на самокаты» на 8 месяцев (240 дней) активируется автоматически с момента старта сезона 2024 г. самокатов Яндекс Go, далее предусмотрено автопродление доп.опции за 399 руб./мес. Сертификат на доп.опцию «Абонемент на самокаты» на 8 месяцев оформляется на условиях документа <a href="https://yandex.ru/legal/scooters_seasonpass/" class="link">yandex.ru/legal/scooters_seasonpass</a>. Доп.опция доступна пользователям с активной подпиской (условия подписки: <a href="https://yandex.ru/legal/yandex_plus_conditions/" class="link">yandex.ru/legal/yandex_plus_conditions</a>), есть ограничения, подробнее: <a href="https://yandex.ru/legal/yandex_plus_opzii_list/" class="link">yandex.ru/legal/yandex_plus_opzii_list</a>. В случае отсутствия у пользователя активной подписки на дату активации доп.опции, пользователю предоставляется 7 дней подписки Яндекс Плюс бесплатно, далее автопродление — 299 руб./мес. Электросамокаты Яндекс Go — сервис аренды электросамокатов на условиях: <a href="https://yandex.ru/legal/samokaty/" class="link">clck.ru/gwDGn</a>. 0+</p>
+        </footer>
+    </div>
+   </main>
+    </body>
+<script src="./script/main.js"></script>
 </html>

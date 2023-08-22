@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 @font-face {
@@ -158,7 +159,7 @@
     line-height: 22px;
     font-family: YSTextMedium, sans-serif;
     position: relative;
-    top: 270px;
+    top: 280px;
     padding: 24px 48px 24px 48px;
     border-radius: 36px;
     border: none;
@@ -349,7 +350,15 @@
     z-index: -1;
 }
 
-.benefit-text {
+.advantages-block{
+    display: flex;
+    overflow: hidden;
+    max-width: 1140px;
+    height: 670px;
+    justify-content: space-between;
+}
+
+.benefit-block {
     display: block;
 }
 
@@ -396,6 +405,10 @@
     left: 25px;
 }
 
+.scooter-mobile {
+    display: none;
+}
+
 .season-ticket {
     width: 318px;
     cursor: pointer;
@@ -419,6 +432,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    padding-bottom: 35px;
 }
 
 .footer {
@@ -445,18 +459,16 @@
     display: none;
 }
 
-@media (max-width: 375px) {
-    body {
-        max-width: 375px;
-    }
+@media (max-width: 640px) {
+
     .offer-container {
-        min-width: 375px;
+        min-width: 311px;
         height: 630px;
     }
 
     .Ya-Go {
         top: 32px;
-        left: 410px;
+        left: 32px;
         width: 112px;
     }
     .greetings {
@@ -464,31 +476,46 @@
         font-size: 36px;
         line-height: 32px;
         top: 65px;
-        left: 410px;
+        left: 32px;
     }
     .conditions {
         width: 311px;
         font-size: 18px;
         line-height: 23px;
         top: 100px;
-        left: 410px;
+        left: 32px;
     }
+
+    .btn-container {
+        display: flex;
+        justify-content: center;
+    }
+
     .subscribe {
-        display: none;
+        display: flex;
+        justify-content: center;
         position: fixed;
+        bottom: 8%;
+        z-index: 2;
+        width: 311px;
+        font-size: 18px;
+        line-height: 22px;
+        padding: 18px 0px 18px 0px;
+        align-items: center;
+        top: 85%;
     }
 
     .main-images-container {
         scale: 0.5;
         top: 165px;
-        left: 105px;
+        left: -197px;
         display: block;
     }
     .community {
         position: absolute;
         width: 207px;
-        top: 305px;
-        left: 190px;
+        top: 302px;
+        left: 191px;
     }
     .candy {
         font-size: 18px;
@@ -503,7 +530,7 @@
     .opportunities {
         width: 311px;
         position: relative;
-        left: 410px;
+        left: 32px;
         font-size: 32px;
         line-height: 32px;
         margin-top: 415px;
@@ -511,7 +538,7 @@
     .abilities-container {
         width: 285px;
         position: relative;
-        left: 410px;
+        left: 32px;
     }
     .ability-block {
         width: 100%;
@@ -592,7 +619,7 @@
         margin-right: -60px;
         margin-bottom: 20px;
         position: relative;
-        left: -21px;
+        left: -25px;
     }
     .slider-resources {
         background-size: contain;
@@ -607,7 +634,7 @@
         border: none;
         width: 50px;
         height: 50px;
-        left: 100px;
+        left: 95px;
         background: none;
         background-image: url("../media/png/Ellipse1837.png");
         background-repeat: no-repeat;
@@ -633,4 +660,69 @@
         position: relative;
         left: 5px;
     }
+    .offer-block {
+        max-width: 300px;
+        height: 430px;
+        margin-left: 32px;
+    }
+    .advantages-block {
+        max-width: 375px;
+        height: 940px;
+        flex-wrap: wrap;
+    }
+
+    .subscription {
+        font-size: 32px;
+        width: 275px;
+        line-height: 32px;
+    }
+    .offer {
+        font-size: 16px;
+        line-height: 19px;
+        width: 100%;
+    }
+    .scooter-small-group {
+        display: none;
+    }
+    .block-plus {
+        display: none;
+    }
+    .scooter-mobile {
+        display: block;
+        width: 360px;
+        height: 374px;
+    }
+    .benefit-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefit-header {
+        margin-top: 0;
+        margin-left: 32px;
+        width: 311px;
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .benefit {
+        width: 311px;
+        font-size: 16px;
+        line-height: 19.2px;
+        margin-left: 32px;
+    }
+    .season-ticket {
+        width: 311px;
+        padding: 18px 0 18px 0;
+        border-radius: 36px;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .footer {
+        font-size: 10px;
+        line-height: 12px;
+        width: 311px;
+    }
+
 }
