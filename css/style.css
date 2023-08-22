@@ -547,7 +547,7 @@
         left: 32px;
         font-size: 32px;
         line-height: 32px;
-        margin-top: 415px;
+        margin-top: 425px;
     }
     .abilities-container {
         width: 285px;
@@ -680,7 +680,7 @@
         margin-left: 32px;
     }
     .advantages-block {
-        max-width: 375px;
+        max-width: 344px;
         height: 940px;
         flex-wrap: wrap;
     }
@@ -740,5 +740,10 @@
         line-height: 12px;
         width: 311px;
     }
+}
 
+@media (max-height: 900px) and (max-width: 640px) {
+    .subscribe {
+        display: none;
+    }
 }
