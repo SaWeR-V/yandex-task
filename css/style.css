@@ -643,6 +643,17 @@
         flex-direction: row;
         align-items: center;
     }
+    .exclusive-text::after {
+        content: '';
+        display: block;
+        position: absolute;
+        background-image: url(../media/png/baloons-mobile.png);
+        background-size: 100% 100%;
+        width: 153px;
+        height: 184px;
+        left: 160px;
+        z-index: 2;
+    }
     .slider-resources {
         background-size: contain;
         width: 100%;
@@ -663,7 +674,7 @@
         width: 50px;
         height: 50px;
         background: none;
-        background-image: url("../media/png/Ellipse1837.png");
+        background-image: url(../media/png/Ellipse1837.png);
         background-repeat: no-repeat;
         margin: 5px;
     }
